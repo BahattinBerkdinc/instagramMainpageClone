@@ -132,6 +132,8 @@
     color: var(--fontColor);
     font-size: 1.9rem;
     cursor: pointer;
+
+    border: none !important;
 }
 
 .leftSide .menuBottom ul li {
@@ -568,6 +570,10 @@
     }
 
     .rightSide .rightSideRight {
+        display: none;
+    }
+
+    .leftSide .menuBottom i {
         display: none;
     }
 

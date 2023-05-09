@@ -76,7 +76,7 @@
     -o-transition: all 500ms ease-in-out;
 }
 
-.leftSide ul li:hover {
+.leftSide>ul li:hover {
     background-color: rgba(128, 128, 128, 0.453);
 
 }
@@ -133,6 +133,31 @@
     font-size: 1.9rem;
     cursor: pointer;
 }
+
+.leftSide .menuBottom ul li {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.leftSide .menuBottom ul li:hover a {
+
+    color: black !important;
+}
+
+.leftSide .menuBottom ul li a {
+    font-size: .8rem;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.leftSide .menuBottom ul li a i {
+    font-size: .8rem;
+    margin-right: 1rem;
+}
+
 
 .leftSide .menuBottom a {
     color: var(--fontColor);
@@ -369,7 +394,7 @@
     flex-direction: column;
     gap: 1rem;
 
-    padding: 0 1rem;
+    padding: 0 5rem;
 }
 
 .rightSideRight>p {

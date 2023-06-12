@@ -202,7 +202,7 @@
     max-width: 800px;
 
     flex-wrap: nowrap;
-    overflow-x: auto;
+    overflow-x: hidden;
 
     padding: 1rem 0;
 }
